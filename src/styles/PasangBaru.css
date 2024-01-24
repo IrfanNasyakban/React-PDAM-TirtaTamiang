@@ -1,0 +1,25 @@
+.item-center-pasang-baru {
+  text-align: center;
+  margin: 60px;
+}
+
+.announcement-box-pasang-baru {
+  border: 1px solid #444444;
+  padding: 20px;
+  max-width: 65%;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img-announcement-pasang-baru {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.text-h2-pasang-baru {
+  display: inline-block;
+  margin-bottom: auto;
+  border-bottom: 4px solid #57aae1;
+  padding-top: 40px;
+}
