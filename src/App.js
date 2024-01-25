@@ -6,6 +6,7 @@ import PasangBaru from './pages/PasangBaru';
 import Pengaduan from './pages/Pengaduan';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CekRekening from "./pages/CekRekening";
+import SecondNavbar from "./components/SecondNavbar";
 
 function App() {
   return (
@@ -20,21 +21,21 @@ function App() {
         )} />
         <Route path="/pasang-baru" element={(
           <>
-            <Navbar />
+            <SecondNavbar />
             <PasangBaru />
             <Footer />
           </>
         )} />
         <Route path="/pengaduan" element={(
           <>
-            <Navbar />
+            <SecondNavbar />
             <Pengaduan />
             <Footer />
           </>
         )} />
         <Route path="/cek-rekening" element={(
           <>
-            <Navbar />
+            <SecondNavbar />
             <CekRekening />
             <Footer />
           </>
